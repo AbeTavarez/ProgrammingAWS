@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin:  0;
+}
+
+header {
+    background-color: #495579;
+    padding: 5px;
+}
+
+nav {
+    background-color: #495579;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+a {
+    color: #fff;
+    padding-bottom: 20px;
+}
+
+body {
+    color: #fff;
+}
+
+main {
+    padding: 10px;
+    background-color: #263159;
+    text-align: center;
+    height: 300px;
+}
+
+footer {
+    height: 100px;
+    background-color: #251749;
+}
+
+footer > p {
+    font-size: 12px;
+    padding-top: 10px;
+}
